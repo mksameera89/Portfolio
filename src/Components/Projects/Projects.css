@@ -41,7 +41,7 @@
 }
 
 .proj-pic {
-    
     width: 30em;
+    min-width: 320px;
 }
 
