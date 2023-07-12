@@ -56,7 +56,7 @@ const Projects = () => {
         </div>
         <ColoredLine color="gray" />
         <div className='grid-wrapper'>
-             <div className='grid-proj'>
+             <div className='grid proj'>
                 <div className='pr-func'>
                     <div className='pr-des' >
                         <h2 className='pr-name'>Robofriends</h2>
