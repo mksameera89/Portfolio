@@ -31,7 +31,7 @@ code {
   justify-items: center;
 }
 
-@media (min-width: 850px) {
+@media (min-width: 400px) {
   .grid {
     grid-template-columns: 1fr 1fr;
   }

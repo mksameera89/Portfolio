@@ -36,12 +36,12 @@
     display: inline-block;
     font-size: 1em;
     font-weight: bolder;
-    margin: 1em 2em;
+    margin: 0.5rem 2em;
     cursor: pointer;
 }
 
 .proj-pic {
+    
     width: 30em;
-    min-width: 320px;
 }
 
