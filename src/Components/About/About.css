@@ -14,22 +14,6 @@
     padding-top: 2em;
 }
 
-.grid-about {
-    display: grid;
-    grid-template-columns: 1fr;
-    align-items: center;
-    justify-items: center;
-}
-
-@media (min-width: 400px) {
-    .grid-about {
-      grid-template-columns: 1fr 1fr;
-    }
-  }
-
-
-
-
 .myimg {
     display: flex;
     justify-content: center;

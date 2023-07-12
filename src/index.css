@@ -23,3 +23,16 @@ code {
   text-align: justify;
   font-size: 1.2em;
  }
+
+ .grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+@media (min-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

@@ -12,7 +12,7 @@ const About = () => {
                 <h1 className='b white about-title'>About Me</h1>
             </div>
             <div className='about_content-wraper'>
-                <div className='grid-about'>
+                <div className='grid about'>
                     <div className='myimg'> 
                        <div className='myimg-wrapper'>                             
                         <Tilt className="parallax-effect shadow-2" >

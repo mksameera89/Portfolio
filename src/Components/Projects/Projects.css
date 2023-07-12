@@ -1,15 +1,4 @@
-.grid-proj {
-    display: grid;
-    grid-template-columns: 1fr;
-    align-items: center;
-    justify-items: center;
-}
 
-@media (min-width: 400px) {
-    .grid-proj {
-      grid-template-columns: 1fr 1fr;
-    }
-  }
 .parallax-effect {
     height: fit-content;
     width: fit-content;
