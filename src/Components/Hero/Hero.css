@@ -1,0 +1,72 @@
+.hero {
+
+}
+
+.text-color-main {
+    color: #209fb2;
+}
+
+.hero-frame{
+    display: inline;
+    align-items: start;
+}
+
+.hero-title {
+    font-size: 4em;
+    text-align: left;
+    padding-top: 2em;
+    padding-left: 1em;   
+}
+
+.hero-btn{
+    float: left;
+    padding-left: 4em;
+}
+
+.hero-link {
+    border: solid #209fb2;
+    color: rgb(0, 0, 0);
+    padding: 1rem 1.5em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.hero-btn  :hover {
+    background-color: #209fb2;
+    color: aliceblue;    
+}
+
+.licon {
+    padding: 1em;
+}
+
+.lan-bar1 {
+    display: inline-block;
+    justify-items: center;
+    padding-top: 10em;
+ 
+}
+
+.lan-bar-wrapper {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ 
+}
+
+.lan-img {
+    max-height: 4em;
+    width: auto;
+}
+
+.lan-img:hover {
+    transform: scale(2);
+    transition-duration: 0.6s;
+}
+
+

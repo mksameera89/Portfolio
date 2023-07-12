@@ -1,0 +1,58 @@
+.grid-proj {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+@media (min-width: 400px) {
+    .grid-proj {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+.parallax-effect {
+    height: fit-content;
+    width: fit-content;
+}
+
+.live-btn {
+    padding-left: 1em;
+}
+
+.live-link {
+    border: 2px solid #209fb2;
+    color: #209fb2;
+    padding: 1em 3em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: bolder;
+    margin: 1em 2em;
+    cursor: pointer;	
+}
+
+
+.live-btn  :hover {
+    font-size: 1em; 
+    background-color: #209fb2;
+    color: aliceblue; 
+}
+
+.src-link {
+    color: #209fb2;
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: bolder;
+    margin: 0.5rem 2em;
+    cursor: pointer;
+}
+
+.proj-pic {
+    
+    width: 30em;
+}
+

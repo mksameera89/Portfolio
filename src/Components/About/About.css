@@ -1,0 +1,81 @@
+.about {
+    min-width: 350px;
+    width: fit-content;
+    margin: 0;
+    background-color: #209fb2;
+    background-image:
+    linear-gradient(
+      to right, 
+      #209fb2 50%, #20B2AA 
+    );
+}
+
+.about-title {
+    padding-top: 2em;
+}
+
+.grid-about {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+@media (min-width: 400px) {
+    .grid-about {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+
+
+
+.myimg {
+    display: flex;
+    justify-content: center;
+ 
+}
+
+
+.mypic {
+    width: 30rem;
+ }
+
+.parallax-effect {
+    height: fit-content;
+    width: fit-content;
+}
+
+.para {
+    padding-right: 1em;
+    padding-left: 1em;
+
+}
+
+
+.resume-btn{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 1em;
+    display: flex;
+    justify-content: left;  
+}
+
+
+.resume-link {
+    border: solid #ffffff;
+    color: #ffffff;
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 4px 2px;
+    cursor: pointer;	
+}
+
+.resume-btn  :hover {
+    background-color: #ffffff;
+    color: #209fb2;
+    
+}

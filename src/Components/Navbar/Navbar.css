@@ -1,0 +1,17 @@
+.navbar {
+    background-color: #363F3F;
+    min-width: 350px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.pad {
+    padding: 2em;
+}
+
+.home-link{
+    padding-left: ;
+}
